@@ -1,0 +1,23 @@
+GROUP 10; PROJECT REPORT.
+
+PROJECT TITLE/DESCRIPTION: 	
+We created a tourism website for a make-belief company called SEE:Ghana Inc. A company that offers accommodation, tourist guides and the like to aid tourists experience the best vacation of their lives in Ghana.
+The Website showcases Ghana and encourages foreigners to come and tour the country.
+Users are also to make payment for the companies services using the website.  
+
+
+FEATURES IMPEMENTED:
+Amazing CSS styling & layout, good error handling, form sanitization and validation, good session management etc
+
+
+CHALLENGES ENCOUNTERED:
+We had a hard time preventing the user from going to dashoboard.php through the url bar and handling wrong input from the user, but in all we now get the concepts.
+
+
+GROUP MEMBERS:
+1. Maxwell Adom - 052441360171
+2. Ocanscy Alex - 052441360266
+3. Dominic Oduro - 052441360264
+4. Asamoah Gabriel - 052541360170
+5. Althabel Dzah - 052441360179
+6. Benjamin Dapaah (Group Leader)- 052441360268
