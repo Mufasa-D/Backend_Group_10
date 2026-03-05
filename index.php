@@ -1,0 +1,83 @@
+<?php 
+    include("top_header.htm");
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEE:Ghana | Travel & Tours</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- getting some icons from the web for page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- the navigation bar -->
+    <nav>
+        <div class="container nav-flex">
+            <div class="logo">SEE:<span>Ghana</span></div>
+            <ul class="nav-links">
+                <li><a href="#" style="border-bottom: 3px solid #333;">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="signup.php">Check Status</a></li>
+                <li><a href="contacts.htm">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- the index welcome section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>GHANA, "<span>GATEWAY TO AFRICA"</h2>
+                <h1>Come Experience the <span style="color: #90d63b;">Vibrant Culture</span> and <br><span style="color: #90d63b;">Legendary</span> Hospitality</h1>
+                <a href="services.php" class="btn-tour-register">Register for Tour Now</a>
+        </div>
+    </header>
+        
+    <br>
+        
+    <video style="margin: 12px;" src="videos/Visit Ghana and Go Beyond The Return 2024.mp4" controls width="98%"></video>
+    <section class="discount_notification">
+        <h4>To check Registeration status, hotel allocation and others. Go to the "<span style="color: #7ab730;">Check Status</span>" tab in the top right corner.</h4>
+        <p>Please enter your details to get notified of <b>discounts</b> and the other <b>important information</b> that may rise.</p><br>
+        <div class="container discount_notification-grid">
+            <input type="text" name="username" placeholder="Name">
+            <input type="email" placeholder="email">
+            <button class="btn-submit">Submit</button>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="container about-flex">
+            <div class="about-img">
+                <img src="images/badal-patel-uLDjIClrohM-unsplash.jpg" alt="A corridor (Elmina Castle)" title="A corridor (Elmina Castle)">
+            </div>
+            <div class="about-text">
+                <h2>About Ghana</h2>
+                <p>Popularly know as <b>"The Gateway to Africa"</b> is a beautiful country located on the Gulf of Guinea,
+                    just north of the Equator. A country where history is preserved in colonial forts, and the future is written in the bustling tech hubs of Accra.
+                    She is the world's second-largest cocoa producer and a land rich in gold, but its truest wealth lies in 
+                    its people.
+                </p><br>
+                <h5 class="subtitle">ABOUT US</h5>
+                <p>
+                    We are <b style="font-weight: 800;">SEE:Ghana</b> Inc., Ghana's number one tourism company with the objective of aiding tourists in Ghana to secure safe and comfortable accomodations as they enjoy
+                    the Country. Our services come in two forms; the <b>Premuim and Regular</b> Experiences. We will take you on a tour of the country you'll never forget. Our Tourist guides have been recently been awarded as the best in West Africa hence 
+                    imagine the Experience you are going to have!
+                </p>
+                <div class="about-images2">
+                    <img style="margin-left: 20px; border: 2px solid hsl(0, 0%, 20%, 0.2);" src="images/women_adowa.jpg" alt="Women dancing Adowa" title="Women dancing Adowa">
+                    <img style="border: 2px solid hsl(0, 0%, 20%, 0.2);" src="images/emmanuel-yeboah-okine-RCAUud6Wcmo-unsplash.jpg" alt="Women dancing Adowa" >
+                </div>
+                <a href="services.php" class="btn-tour-register">VIEW SERVICES</a>
+                <br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
